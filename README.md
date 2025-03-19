@@ -18,7 +18,7 @@
 
 The *official* repository for  [SCAP: Transductive Test-Time Adaptation via Supportive Clique-based Attribute Prompting](https://arxiv.org/abs/2503.12866).
 
-
+## Code is coming soon!
 ## Contact
 
 Welcome to our [Laboratory Homepage](http://www.icst.pku.edu.cn/mipl/home/) and [OV<sup>3</sup> Lab](https://zhoujiahuan1991.github.io/) for more information about our papers, source codes, and datasets.
