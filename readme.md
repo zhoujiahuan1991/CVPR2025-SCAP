@@ -85,4 +85,4 @@ Our code is based on the PyTorch implementation of [TPT](https://github.com/azsh
 ### Contact
 For any questions, feel free to contact us ([xkl@stu.pku.edu.cn](xkl@stu.pku.edu.cn)).
 
-Welcome to our [Laboratory Homepage](http://39.108.48.32/mipl/home/) and [OV<sup>3</sup> Lab](https://zhoujiahuan1991.github.io/) for more information about our papers, source codes, and datasets.
+Welcome to our Laboratory Homepage ([OV<sup>3</sup> Lab](https://zhoujiahuan1991.github.io/))for more information about our papers, source codes, and datasets.
