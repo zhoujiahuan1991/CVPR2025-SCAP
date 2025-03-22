@@ -23,10 +23,13 @@ The *official* repository for  [SCAP: Transductive Test-Time Adaptation via Supp
 
 
 
-### Environment
-This code is based on pytorch2.0.1, pytorch-cuda11.8, and torchvision0.15.2.
-
-For a complete configuration environment, see environment.yaml
+### Environment Preparation
+```shell
+conda create -n TTA python=3.11
+conda activate TTA
+pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirement.txt
+```
 
 ### Data
 You should download [ImageNet-A](https://github.com/hendrycks/natural-adv-examples), [ImageNet-R](https://github.com/hendrycks/imagenet-r), [ImageNet-Sketch](https://github.com/HaohanWang/ImageNet-Sketch) and [ImageNet-V](https://github.com/modestyachts/ImageNetV2) first.
