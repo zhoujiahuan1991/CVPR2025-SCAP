@@ -73,12 +73,12 @@ class ProgressMeter(object):
         self.meters = meters
         self.prefix = prefix
         self.args = args
-        self.log_path = "./logs-AAAI/"+self.args.info
+        self.log_path = "./logs/"+self.args.info
         # 获取当前日期
         self.log_path = self.log_path + '--' + time.strftime("%Y-%m-%d", time.localtime())
         # 如果路径不存在，创建路径
-        # if not os.path.exists(self.log_path):
-        #     os.makedirs(self.log_path)
+        if not os.path.exists(self.log_path):
+            os.makedirs(self.log_path)
 
         # self.log_file = open(self.log_path+".txt",'w')
         # print('123232/n', file=self.log_file)

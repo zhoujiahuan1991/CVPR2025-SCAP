@@ -88,7 +88,7 @@ template = ['a bad photo of a {}.',
 
 def build_imagenet_d(data_root, domain_id, transform):
     data_files = [os.path.join("datasets", "imagenet_d109_lists", domain_id + "_list.txt")]
-    data_dir = '/data/dataset/zhangchenyu/tta/test-time-adaptation/classification/data/imagenet-d'
+    data_dir = os.path.join(data_root,'imagenet-d')
     testset = ImageList(image_root=data_dir,
                         label_files=data_files,
                         transform=transform)

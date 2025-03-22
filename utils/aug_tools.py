@@ -1,6 +1,7 @@
 import torch
 import time
 import logging
+import os
 class AugTools(object):
     def __init__(self, args):
         self.args = args
@@ -35,8 +36,11 @@ class AugTools(object):
         self.init_logger()
 
     def init_logger(self):
-        self.log_path = "./logs-AAAI/"+self.args.info
+        self.log_path = "./logs/"+self.args.info
         self.log_path = self.log_path + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())   
+        # if the log_path not exists, then create one
+        if not os.path.exists(self.log_path):
+            os.makedirs(self.log_path)
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(level = logging.INFO)
         self.handler = logging.FileHandler(self.log_path + '.log')
