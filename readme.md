@@ -13,7 +13,7 @@
 </div>
 <p align="center">
   <a href='https://arxiv.org/abs/2503.12866'><img src='https://img.shields.io/badge/Arxiv-2503.12866-A42C25.svg?logo=arXiv'></a>
-  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzhoujiahuan1991%2FCVPR2025-SCAP&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+  <a href="https://github.com/zhoujiahuan1991/CVPR2025-SCAP"><img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fzhoujiahuan1991%2FCVPR2025-SCAP&label=SCAP&icon=github&color=%233d8bfd"></a>
 </p>
 
 The *official* repository for  [SCAP: Transductive Test-Time Adaptation via Supportive Clique-based Attribute Prompting](https://arxiv.org/abs/2503.12866).
